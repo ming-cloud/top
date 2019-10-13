@@ -1,0 +1,160 @@
+body,p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+    
+}
+.panel{
+    width: 1130px;
+    margin: 0 auto;
+}
+.h-logo{
+    width: 200px;
+    height: 98px;   
+    background-repeat: no-repeat; 
+}
+.banner{
+    background-image: url(./83854f0abf1c124c4406166b58862192.jpg);
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0;
+    top: 98px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.mainbox
+{   
+    background-color: #fff;
+    position: relative;
+    width: 410px;
+    min-height: 556px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 14px;
+    z-index: 4;
+}
+#frame{
+    width: 300px;
+    height: 260px;
+    padding: 13px；
+}
+.central{
+    width: 1130px;
+    margin:0 auto;
+}
+/* #logo {
+    margin-top: 22px;
+} */
+.layout{ 
+    color:#e09431;
+    display:block;
+    font-family:arial, "Hiragino Sans GB", "Microsoft YaHei", 微軟正黑體, "儷黑 Pro", sans-serif;
+    font-size:24px;
+    height:32px;
+    margin: 12px;
+    padding-bottom:24px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:27px;
+    text-align:center;
+}
+.line{
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+.item_account{ 
+    width: 346px;
+    height: 48px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.btnadpt
+{ 
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ff6700;
+    width: 85%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn_qq {
+    width: 30px;
+    height: 30px;
+    background-color: #0288d1;
+}
+.btn_weibo{ 
+    
+    
+    background-color: #d32f2f;
+}
+.btn_alipay {
+    background-color: #0ae;
+}
+.btn_weixin {
+    background-color: #00d20d;
+}
+.oth_type_links {
+    padding-top: 30px;
+    margin-left: 57px;
+
+}
+.icon_type{
+    width: 30px;
+    height: 30px;
+    margin: 0 17px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.btn_sns_icontype {
+    background: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-image: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon_default_weixin {
+    background-position: -83px 0;
+    width: 24px;
+    margin: 6px 2px;
+}
+.icon_default_weibo {
+    background-position: -39px 0;
+    width: 18px;
+    margin: 6px;
+}
+.icon_default_qq {
+    background-position: -19px 0;
+    width: 18px;
+    margin:6px;
+}
+.icon_default_alipay {
+    background-position: -56px 0;
+    width: 25px;
+    margin: 6px 3px;
+}

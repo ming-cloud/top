@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   var x,y,z,a;
+  
+   for (a=1000; a<10000;a++) {
+    x=parseInt(a/1000)%10;
+   y=parseInt(a/100)%10;
+   z=parseInt(a/10)%10;
+//    console.log(x,y,z,a) 
+    if(a%13==0&&x==y+z){
+      console.log(a)
+   }
+   }
+    </script>
+</body>
+</html>
